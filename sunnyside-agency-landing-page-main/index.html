@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- link to my css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- link for icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <!-- link to my js csript  -->
+    <script src="/JS/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img
+          class="header__logo"
+          src="images/logo.svg"
+          alt="Sunnyside Agency"
+        />
+        <ul id="header__ul" class="header__ul">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a class="header__ul-contact" href="#">Contact</a></li>
+        </ul>
+
+        <ion-icon
+          id="menu_open"
+          class="menu_open"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          id="menu_close"
+          class="menu_close"
+          name="close-outline"
+        ></ion-icon>
+      </nav>
+
+      <h1 class="header__h1">
+        WE ARE <br />
+        CREATIVES
+      </h1>
+
+      <img
+        class="header__arrow"
+        src="images/icon-arrow-down.svg"
+        alt="Arrow Down icon"
+      />
+    </header>
+
+    <main class="main">
+      <section>
+        <article class="main__artile_one">
+          <section>
+            <h2>
+              Transform your <br />
+              brand
+            </h2>
+
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+
+            <button>Learn more</button>
+          </section>
+
+          <section>
+            <picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="/images/desktop/image-transform.jpg"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="/images/mobile/image-transform.jpg"
+              />
+              <img
+                src="/images/desktop/image-transform.jpg"
+                alt="image-transform"
+              />
+            </picture>
+          </section>
+        </article>
+
+        <article class="main__artile_two">
+          <section>
+            <picture>
+              <source
+                media=" (min-width: 600px)"
+                srcset="/images/desktop/image-stand-out.jpg"
+              />
+              <source
+                media=" (max-width: 600px)"
+                srcset="/images/mobile/image-stand-out.jpg"
+              />
+              <img src="/images/desktop/image-stand-out.jpg" alt="" />
+            </picture>
+          </section>
+
+          <section>
+            <h2>
+              Stand out to the right <br />
+              audience
+            </h2>
+
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+
+            <button>Learn more</button>
+          </section>
+        </article>
+      </section>
+
+      <section class="main__section_two">
+        <article>
+          <h2>Graphic design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </article>
+
+        <article>
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </article>
+      </section>
+
+      <section class="main__section_three">
+        <section>
+          <h2 class="main__artile__h2">Client testimonials</h2>
+        </section>
+
+        <section>
+          <article>
+            <img src="images/image-emily.jpg" alt="Emily R." />
+            <p class="main__artile__p">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h3>Emily R.</h3>
+            <span>Marketing Director</span>
+          </article>
+
+          <article>
+            <img src="images/image-thomas.jpg" alt="Thomas S." />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h3>Thomas S.</h3>
+            <span>Chief Operating Officer</span>
+          </article>
+
+          <article>
+            <img src="images/image-jennie.jpg" alt="Jennie F." />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h3>Jennie F.</h3>
+            <span>Business Owner</span>
+          </article>
+        </section>
+      </section>
+
+      <section>
+        <picture>
+          <source
+            media=" (min-width: 600px)"
+            srcset="/images/desktop/image-gallery-milkbottles.jpg"
+          />
+          <source
+            media=" (max-width: 600px)"
+            srcset="/images/mobile/image-gallery-milkbottles.jpg"
+          />
+          <img
+            src="images/desktop/image-gallery-milkbottles.jpg"
+            alt="Milkbottles"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media=" (min-width: 600px)"
+            srcset="/images/desktop/image-gallery-orange.jpg"
+          />
+          <source
+            media=" (max-width: 600px)"
+            srcset="/images/mobile/image-gallery-orange.jpg"
+          />
+          <img
+            src="images/desktop/image-gallery-orange.jpg"
+            alt="Orange gallery"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media=" (min-width: 600px)"
+            srcset="/images/desktop/image-gallery-cone.jpg"
+          />
+          <source
+            media=" (max-width: 600px)"
+            srcset="/images/mobile/image-gallery-cone.jpg"
+          />
+          <img src="images/desktop/image-gallery-cone.jpg" alt="Cone gallery" />
+        </picture>
+
+        <picture>
+          <source
+            media=" (min-width: 600px)"
+            srcset="/images/desktop/image-gallery-sugarcubes.jpg"
+          />
+          <source
+            media=" (max-width: 600px)"
+            srcset="/images/mobile/image-gallery-sugar-cubes.jpg"
+          />
+          <img
+            src="/images/desktop/image-gallery-sugarcubes.jpg"
+            alt="sugar cubes"
+          />
+        </picture>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section>
+        <a href="#">
+          <img src="images/logo.svg" alt="Sunnyside Agency" />
+        </a>
+      </section>
+
+      <section>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Services</a></p>
+        <p><a href="#">Projects</a></p>
+      </section>
+
+      <section>
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-pinterest"></ion-icon>
+        </a>
+      </section>
+
+      <section class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          &nbsp; Frontend Mentor</a
+        >. Coded by <a href="#">&nbsp; AngwenyiOgata</a>.
+      </section>
+    </footer>
+  </body>
+</html>
